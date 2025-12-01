@@ -13,27 +13,22 @@ document.addEventListener('DOMContentLoaded', () => {
 const showMoreButtons = document.querySelectorAll('.show-more-btn');
 
 showMoreButtons.forEach(button => {
-    button.addEventListener('click', () => {
-        const menuCategory = button.closest('.menu-category');
-        const hiddenItems = menuCategory ? menuCategory.querySelector('.hidden-menu-items') : null;
+  button.addEventListener('click', () => {
+    const menuCategory = button.closest('.menu-category');
+    const hiddenItems = menuCategory?.querySelector('.hidden-menu-items');
+    if (!hiddenItems) return;
 
-        if (!hiddenItems) return;
+    const nowExpanded = hiddenItems.classList.toggle('expanded');
+    button.textContent = nowExpanded ? 'Show Less' : 'Show More';
 
-        // Toggle expanded class
-        const isNowExpanded = hiddenItems.classList.toggle('expanded');
-
-        // Update button text
-        button.textContent = isNowExpanded ? 'Show Less' : 'Show More';
-
-
-        setTimeout(() => {
-           
-            menuCategory.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-          
-        }, 80);
-    });
+    // tiny delay so layout updates and transition starts, then smooth scroll
+    setTimeout(() => {
+      // Scroll the category so expanded items are visible
+      menuCategory.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 80);
+  });
 });
+
 
 
     // 'Reserve Your Table' button smooth scroll on index.html
@@ -59,4 +54,5 @@ showMoreButtons.forEach(button => {
             }, 600);
         });
     }
+
 });
