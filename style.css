@@ -608,18 +608,16 @@ footer {
 
 
 
-/* Hidden menu - start collapsed */
 .hidden-menu-items {
-    max-height: 0;               
-    overflow: hidden;             
-    transition: max-height 0.45s cubic-bezier(.2,.8,.2,1); 
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.45s cubic-bezier(.2,.8,.2,1);
 }
-
-
 .hidden-menu-items.expanded {
-    max-height: 2200px;          
-    transition: max-height 0.6s cubic-bezier(.2,.8,.2,1);
+  max-height: 2200px; /* large enough */
+  transition: max-height 0.6s cubic-bezier(.2,.8,.2,1);
 }
+
 
 
 .show-more-btn {
@@ -646,4 +644,5 @@ footer {
 /* Enable smooth scrolling for all anchor links */
 html {
     scroll-behavior: smooth;
+
 }
