@@ -27,6 +27,22 @@ Through this project, I improved my understanding of:
 - JavaScript interactions
 - Better webpage organization
 
+
+## 📸 Screenshots
+
+### Homepage
+![Homepage](screenshots/Home.png)
+
+### Menu Section
+![Menu](screenshots/Menu.png)
+
+### Reservation Section
+![Reservation](screenshots/reservation.png)
+
+### Gallery
+![Gallery](screenshots/Gallery.png)
+
+
 ## 🔗 Live Demo
 
 (https://aman-flashiii.github.io/ZENSHI-Website/)
