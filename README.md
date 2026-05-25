@@ -31,13 +31,13 @@ Through this project, I improved my understanding of:
 ## 📸 Screenshots
 
 ### Homepage
-![Homepage](screenshots/Home.png)
+![Homepage](Screenshots/Home.png)
 
 ### Menu Section
-![Menu](screenshots/Menu.png)
+![Menu](Screenshots/Menu.png)
 
 ### Reservation Section
-![Reservation](screenshots/Reservation.png)
+![Reservation](Screenshots/Reservation.png)
 
 ### Gallery
 ![Gallery](Screenshot/Gallery.png)
