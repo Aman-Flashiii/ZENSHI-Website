@@ -37,10 +37,10 @@ Through this project, I improved my understanding of:
 ![Menu](screenshots/Menu.png)
 
 ### Reservation Section
-![Reservation](screenshots/reservation.png)
+![Reservation](screenshots/Reservation.png)
 
 ### Gallery
-![Gallery](screenshots/Gallery.png)
+![Gallery](Screenshot/Gallery.png)
 
 
 ## 🔗 Live Demo
