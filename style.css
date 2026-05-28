@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: 'Coldiac';
-    src: url('Coldiac.ttf') format('truetype');
+    src: url('Assets/Coldiac.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
@@ -74,7 +74,7 @@ nav {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: url('BeFunky-collage (47).jpg') no-repeat center center/cover ;
+    background: url('Assets/BeFunky-collage (47).jpg') no-repeat center center/cover ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ nav {
 }
 
 .belowhero {
-    background: url('bg1.jpg') no-repeat center center/cover fixed;
+    background: url('Assets/bg1.jpg') no-repeat center center/cover fixed;
     
     background-color: rgba(10, 10, 10, 0.45);
     background-blend-mode: darken;
@@ -124,7 +124,7 @@ nav {
 
 /* Timing Section */
 .timing {
-background: url('greygran.webp') no-repeat center center/cover; ;
+background: url('Assets/greygran.webp') no-repeat center center/cover; ;
     background-color: rgba(10, 10, 10, 0.99);
     background-blend-mode: darken;
     padding: 3rem 2rem;
@@ -144,7 +144,7 @@ background: url('greygran.webp') no-repeat center center/cover; ;
 
 /* Reservation Section */
 .res-sec {
-    background: url('bg1.jpg') no-repeat center center/cover fixed;
+    background: url('Assets/bg1.jpg') no-repeat center center/cover fixed;
     padding: 3rem 2rem;
     background-color: rgba(10, 10, 10, 0.6);
     background-blend-mode: darken;
@@ -386,7 +386,7 @@ background: url('greygran.webp') no-repeat center center/cover; ;
 
 
 .special{
-    background: url('night-view-cherry-blossoms-cherry.jpg') no-repeat center center/cover fixed;
+    background: url('Assets/night-view-cherry-blossoms-cherry.jpg') no-repeat center center/cover fixed;
     padding: 3rem 2rem;
     background-color: rgba(10, 10, 10, 0.6);
     background-blend-mode: darken;
@@ -396,7 +396,7 @@ background: url('greygran.webp') no-repeat center center/cover; ;
 
 /* This provides the consistent background for all new pages */
 .main-content-page {
-    background: url('bg1.jpg') no-repeat center center/cover fixed;
+    background: url('Assets/bg1.jpg') no-repeat center center/cover fixed;
     background-color: rgba(10, 10, 10, 0.6);
     background-blend-mode: darken;
     padding: 4rem 2rem;
